@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Projects</title>
+        <title>Portfolio</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -18,26 +18,28 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100 bg-light">
+        <!-- Loader-->
+        <div id="loader" style="position: fixed; inset: 0; background: white; z-index: 9999; display: flex; align-items: center; justify-content: center"><div class="loader"></div></div>
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Jaco Slabbert</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Jaco S</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <!-- Projects Section-->
+            <!-- Portfolio Section-->
             <section class="py-5">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Portfolio</span></h1>
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -46,70 +48,89 @@
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center place-content-space-between">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Fusion Tree</h2>
-                                            <a class="text-gradient" href="https://fusiontree.co.za">View</a>
-                                        </div>
-                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/ftreescreenshot.png" alt="..." />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center place-content-space-between">
-                                        <div class="p-5">
                                             <h2 class="fw-bolder">Betway</h2>
-                                            <a class="text-gradient" href="https://betway.co.za">View</a>
+                                            <p>I worked on high-traffic betting components within the Betway platform, contributing to stability, performance, and real-time engagement at scale.</p>
+                                            <a class="text-gradient" href="https://betway.co.za">Check it out</a>
                                         </div>
-                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/betway.png" alt="..." />
+                                        <img class="img-fluid" style="height: 100%; max-width: 300px" src="assets/betway.png" alt="..." />
                                     </div>
                                 </div>
                             </div>
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center place-content-space-between">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">OIM Consulting</h2>
-                                            <a class="text-gradient" href="https://oimconsulting.com/">View</a>
-                                        </div>
-                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/oim.png" alt="..." />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Project Card 1-->
+                            <!-- Project Card 2-->
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center place-content-space-between">
                                         <div class="p-5">
                                             <h2 class="fw-bolder">Intigriti</h2>
-                                            <a class="text-gradient" href="https://intigriti.com/">View</a>
+                                            <p>I helped integrate secure bug bounty workflows into the Intigriti platform, enabling responsible disclosure, triage, and rewards.</p>
+                                            <a class="text-gradient" href="https://intigriti.com/">Check it out</a>
                                         </div>
                                         <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/intigriti.png" alt="..." />
                                     </div>
                                 </div>
                             </div>
-                            <!-- Project Card 1-->
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center place-content-space-between">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Korridor</h2>
+                                            <p>Built key web tools for this international logistics platform, streamlining freight coordination, planning, trip costs, and reducing cross-border operational friction.</p>
+                                            <a class="text-gradient" href="https://korridor.com/">Check it out</a>
+                                        </div>
+                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/korridor.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 4-->
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center place-content-space-between">
                                         <div class="p-5">
                                             <h2 class="fw-bolder">FortisPro</h2>
-                                            <a class="text-gradient" href="https://fortispro.fusiontree.co.za/index.html">View</a>
+                                            <p>FortisPro is a property investment tracker that enables users granular control of their costs, investments, and planning. Some incredible features will be releasing soon that we cannot share too much on at the moment.</p>
+                                            <a class="text-gradient" href="https://fortispro.fusiontree.co.za/index.html">Check it out</a>
                                         </div>
-                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/fortispro.png" alt="..." />
+                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px; margin-top: 10px" src="assets/fortispro.png" alt="..." />
                                     </div>
                                 </div>
                             </div>
-                            <!-- Project Card 1-->
+                            <!-- Project Card 5-->
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center place-content-space-between">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Bound by Health</h2>
-                                            <a class="text-gradient" href="https://jaco-slabbert.github.io/bound_by_health/">View</a>
+                                            <h2 class="fw-bolder">OIM Consulting</h2>
+                                            <p>I supported OIM’s digital transformation efforts by developing tools to enhance client reporting, internal workflows, and operational efficiency.</p>
+                                            <a class="text-gradient" href="https://oimconsulting.com/">Check it out</a>
                                         </div>
-                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/bbh.png" alt="..." />
+                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px; margin-top: 12px" src="assets/oim.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 6-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center place-content-space-between">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Fusion Tree</h2>
+                                            <p>Fusion Tree is my software consultancy. I’ve led and delivered dozens of custom solutions for clients, with a focus on integrity, impact, and quality.</p>
+                                            <a class="text-gradient" href="https://fusiontree.co.za">Check it out</a>
+                                        </div>
+                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/ftreescreenshot.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 7-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center place-content-space-between">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Bank Statement 2 Excel</h2>
+                                            <p>This SaaS tool helps accountants convert PDF bank statements to importable CSV files, saving the users countless hours of manual input. During my involvement, subscription profits tripled.</p>
+                                            <a class="text-gradient" href="https://www.bankstatements2excel.co.za/">Check it out</a>
+                                        </div>
+                                        <img class="img-fluid" style="max-height: 400px; max-width: 300px" src="assets/pdfconverter.png" alt="..." />
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +143,7 @@
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="mailto:jako.slabbert@gmail.com">Contact me</a>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="mailto:jaco@fusiontree.co.za">Contact me</a>
                     </div>
                 </div>
             </section>
