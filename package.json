@@ -11,8 +11,8 @@
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js",
-        "build-gh": "npm run build --base-href=https://jakes-slabbert.github.io/cv/",
-        "deploy-gh": "ngh --no-silent -d dist/ --repo=https://github.com/jakes-slabbert/cv.git"
+        "build-gh": "npm run build --base-href=https://jaco-slabbert.github.io/cv/",
+        "deploy-gh": "ngh --no-silent -d dist/ --repo=https://github.com/jaco-slabbert/cv.git"
     },
     "description": "A personal website template built with Bootstrap",
     "keywords": [
