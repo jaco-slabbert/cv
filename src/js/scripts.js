@@ -17,3 +17,12 @@ function updateImage() {
 
 // Set an interval to change the image every 30 seconds (30000ms)
 setInterval(updateImage, 30000);
+
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    if (loader) {
+        loader.style.transition = 'opacity 2s ease';
+        loader.style.opacity = '0';
+        setTimeout(() => loader.style.display = 'none', 2000);
+    }
+});

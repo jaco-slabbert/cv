@@ -1,0 +1,128 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Portfolio
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column.h-100.bg-light
+        // Loader
+        #loader(style='position: fixed; inset: 0; background: white; z-index: 9999; display: flex; align-items: center; justify-content: center;')
+            .loader
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Portfolio Section
+            section.py-5
+                .container.px-5.mb-5
+                    .text-center.mb-5
+                        h1.display-5.fw-bolder.mb-0
+                            span.text-gradient.d-inline Portfolio
+                    .row.gx-5.justify-content-center
+
+                        .col-lg-11.col-xl-9.col-xxl-8
+
+                            // Project Card 1
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder Betway
+                                            p I worked on high-traffic betting components within the Betway platform, contributing to stability, performance, and real-time engagement at scale.
+                                            a.text-gradient(href='https://betway.co.za') Check it out
+                                        img.img-fluid(style='height: 100%; max-width: 300px' src='assets/betway.png', alt='...')
+
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder Intigriti
+                                            p I helped integrate secure bug bounty workflows into the Intigriti platform, enabling responsible disclosure, triage, and rewards.
+                                            a.text-gradient(href='https://intigriti.com/') Check it out
+                                        img.img-fluid(style='max-height: 400px; max-width: 300px' src='assets/intigriti.png', alt='...')
+
+                            // Project Card 3
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder Korridor
+                                            p Built key web tools for this international logistics platform, streamlining freight coordination, planning, trip costs, and reducing cross-border operational friction.
+                                            a.text-gradient(href='https://korridor.com/') Check it out
+                                        img.img-fluid(style='max-height: 400px; max-width: 300px' src='assets/korridor.png', alt='...')
+
+                            // Project Card 4
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder FortisPro
+                                            p FortisPro is a property investment tracker that enables users granular control of their costs, investments, and planning. Some incredible features will be releasing soon that we cannot share too much on at the moment.
+                                            a.text-gradient(href='https://fortispro.fusiontree.co.za/index.html') Check it out
+                                        img.img-fluid(style='max-height: 400px; max-width: 300px; margin-top: 10px;' src='assets/fortispro.png', alt='...')
+
+                            // Project Card 5
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder OIM Consulting
+                                            p I supported OIM’s digital transformation efforts by developing tools to enhance client reporting, internal workflows, and operational efficiency.
+                                            a.text-gradient(href='https://oimconsulting.com/') Check it out
+                                        img.img-fluid(style='max-height: 400px; max-width: 300px; margin-top:12px;' src='assets/oim.png', alt='...')
+
+                            // Project Card 6
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder Fusion Tree
+                                            p Fusion Tree is my software consultancy. I’ve led and delivered dozens of custom solutions for clients, with a focus on integrity, impact, and quality.
+                                            a.text-gradient(href='https://fusiontree.co.za') Check it out
+                                        img.img-fluid(style='max-height: 400px; max-width: 300px' src='assets/ftreescreenshot.png', alt='...')
+
+                            // Project Card 7
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center.place-content-space-between
+                                        .p-5
+                                            h2.fw-bolder Bank Statement 2 Excel
+                                            p This SaaS tool helps accountants convert PDF bank statements to importable CSV files, saving the users countless hours of manual input. During my involvement, subscription profits tripled. 
+                                            a.text-gradient(href='https://www.bankstatements2excel.co.za/') Check it out
+                                        img.img-fluid(style='max-height: 400px; max-width: 300px' src='assets/pdfconverter.png', alt='...')
+
+                            //- // Project Card 8
+                            //- .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                            //-     .card-body.p-0
+                            //-         .d-flex.align-items-center.place-content-space-between
+                            //-             .p-5
+                            //-                 h2.fw-bolder Bound by Health
+                            //-                 p This was a passion project—an informative health site built during COVID-19 to encourage holistic wellbeing and mental resilience.
+                            //-                 a.text-gradient(href='https://jaco-slabbert.github.io/bound_by_health/') View
+                            //-             img.img-fluid(style='max-height: 400px; max-width: 300px' src='assets/bbh.png', alt='...')
+
+
+            // Call to action section
+            section.py-5.bg-gradient-primary-to-secondary.text-white
+                .container.px-5.my-5
+                    .text-center
+                        h2.display-4.fw-bolder.mb-4 Let's build something together
+                        a.btn.btn-outline-light.btn-lg.px-5.py-3.fs-6.fw-bolder(href='mailto:jaco@fusiontree.co.za') Contact me
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug

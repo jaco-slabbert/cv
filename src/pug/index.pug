@@ -18,6 +18,9 @@ html(lang='en')
         include includes/css.pug
 
     body.d-flex.flex-column.h-100
+        // Loader
+        #loader(style='position: fixed; inset: 0; background: white; z-index: 9999; display: flex; align-items: center; justify-content: center;')
+            .loader
 
         main.flex-shrink-0
 
@@ -38,7 +41,7 @@ html(lang='en')
                                     span.text-gradient.d-inline Through meaningful code.
                                 .d-grid.gap-3.d-sm-flex.justify-content-sm-center.justify-content-xxl-start.mb-3
                                     a.btn.btn-primary.btn-lg.px-5.py-3.me-sm-3.fs-6.fw-bolder(href='resume.html') Resume
-                                    a.btn.btn-outline-dark.btn-lg.px-5.py-3.fs-6.fw-bolder(href='projects.html') Projects
+                                    a.btn.btn-outline-dark.btn-lg.px-5.py-3.fs-6.fw-bolder(href='portfolio.html') Portfolio
                         .col-xxl-7
                             // Header profile picture
                             .d-flex.justify-content-center.mt-5.mt-xxl-0
@@ -61,7 +64,7 @@ html(lang='en')
                             .text-center.my-5
                                 h2.display-5.fw-bolder
                                     span.text-gradient.d-inline About Me
-                                p.lead.fw-light.mb-4 As a passionate software developer and proud follower of Jesus, I am committed to continuous learning, mentorship, and the pursuit of excellence. My fascination with technology from a young age drives me to create clean, efficient, and impactful solutions. I value diverse perspectives, seeing them as opportunities for growth. Guided by my faith and a belief in the transformative power of software, I aim to contribute meaningfully to organizations, building software for the betterment of humanity.
+                                p.lead.fw-light.mb-4 I’m a passionate and purpose-driven software developer. Guided by my Christian faith, I bring integrity, diligence, and a commitment to excellence into every project I take on. I specialize in building clean, efficient, and meaningful software solutions, always with an eye toward long-term impact. I value open collaboration, diverse perspectives, and mentoring others, and I’m continually learning to stay ahead in a fast-changing field. Whether working with startups, businesses, or non-profits, my goal is to deliver software that makes life better—for teams, users, and communities.
 
         // Footer
         include includes/footer.pug
